@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600i,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900');
+
+html {
+	background-color: #efefef;
+}
+header {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	line-height: 27px;
+	text-align: left;
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+h3 {
+	font-size: 38px;
+	font-weight: 900;
+	display: inline-block;
+	float: left;
+}
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 17px;
+	text-align: right;
+	display: inline-block;
+}
+#id {
+padding-right: 40px;
+	padding-left: 40px;
+}
+.btn {
+	background: url('picture/button.png') no-repeat;
+	background-size: 18px;
+	height: 18px;
+	border: none;
+}
+header div {
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+.menu {
+	width: 1200px;
+	height: 490px;
+	text-align: right;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+}
+.text {
+	width: 620px;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #303030;
+	font-size: 130px;
+	font-weight: 900;
+	line-height: 130px;
+	word-wrap: break-word;
+	margin: 0;
+}
+.ai {
+	position: absolute;
+	right: 100px;
+	top: 0;
+}
+.sliders {
+	position: absolute;
+right: 580px;
+	top: 550px;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	color: #e10011;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+}
+a {
+	vertical-align: top;
+}
+.goods {
+	margin: 0 auto;
+	margin-top: 180px;
+	padding: 70px;
+	text-align: center;
+	width: 1060px;
+	background-color: #ffffff;
+	position: relative;
+}
+div .par {
+	font-family: 'Raleway', sans-serif;
+	color: #303030;
+	font-size: 38px;
+	font-weight: 900;
+	line-height: 80px;
+	text-align: center;
+	margin: 0;
+}
+p.lorem {
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 67px;
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
+.goods img {
+	margin-right: 33px;
+}
+.goods img:nth-child(3n+2) {
+	margin-right: 0;
+}
+.mb {
+	margin-bottom: 33px;
+}
+.clock {
+background: url('picture/dea38ba274-productman-assets/Rectangle.jpg');
+	width: 328px;
+	height: 387px;
+	border: none;
+}
+.clock:hover {
+	background-image: url("picture/clock.png");
+	width: 328px;
+	height: 387px;
+	border: none;
+}
+.subscribe {
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 87px;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 150px;
+	text-align: center;
+	margin: 0;
+}
+.bottom {
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+input {
+	padding: 15px;
+	border: none;
+	height: 40px;
+}
+input[type=text] {
+	width: 700px;
+	border-radius: 40px 0 0 40px;
+	margin-right: -5px;
+	font-family: 'Raleway', sans-serif;
+	color:  #979797;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 24px;
+}
+input[type=submit] {
+	height: 70px;
+	background: red;
+	width: 200px;
+	color: #ffffff;
+	border-radius: 0 40px 40px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+}
+.fa {
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	background: #fff;
+	border-radius: 35px;
+	line-height: 70px;
+	font-size: 35px;
+	margin-right: 20px;
+	color: #979797;
+}
+.social {
+	margin-bottom: 60px;
+}
+footer {
+	margin-top: 105px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+}
+.copyright {
+	font-family: 'Raleway', sans-serif;
+	color: #979797;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
