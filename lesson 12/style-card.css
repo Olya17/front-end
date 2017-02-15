@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600');
+.b-page {
+	background: url(pictures/main.jpg) no-repeat;
+	width: 800px;
+	height: 600px;
+}
+.b-main {
+	height: 390px;
+	width: 686px;
+	background:#111a28;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 0 44px 0 rgba(17,26,40,0.86);
+	-moz-box-shadow: 0 0 44px 0 rgba(17,26,40,0.86);
+	box-shadow: 0 0 44px 0 rgba(17,26,40,0.86);
+	margin: 109px 50px;
+}
+.b-content {
+	float: right;
+	margin-top: 75px;
+	margin-right: 58px;
+	font-family: 'Nunito', sans-serif;
+	color:  #e1e1e1;
+	text-align: left;
+	line-height: 26px;
+}
+.b-content__header {
+	font-size: 24px;
+}
+p {
+	font-size: 14px;
+	color: #49505a;
+}
+.b-main__icon {
+	font-size: 12px;
+	color: #f7bf16;
+	margin-bottom: 13px;
+}
+.fa:nth-child(5n-1) {
+	color: #9da1a6;
+}
+.fa:last-child {
+	color: #9da1a6;
+}
+.add {
+	color: #9da1a6;
+	background: #202835;
+	border: 1px solid #4f5560;
+	padding: 15px 55px;
+	display: block;
+	margin-top: 28px;
+}
+.b-main__image {
+	float: left;
+}
+select {
+	border: 1px solid #4f5560;
+	background: transparent;
+	color: #4f5560;
+	padding: 5px 12px;
+}
+option {
+	background: #111a28;
+	color: #000;
+}
+.b-main__image--logo {
+	margin-top: 20px;
+	margin-left: 22px;
+}
+.b-main__image--nike {
+	margin-top: 63px;
+	margin-left: 40px;
+}
+.b-main__image--point {
+	margin-left: 175px;
+	margin-top: 68px;
+}
