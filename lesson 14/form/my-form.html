@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My form</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="shortcut icon" href="checkout.png">
+	<link rel="stylesheet" href="style-my.css">
+</head>
+<body>
+	<img src="pictures/shoulders.png"/>
+<div class="forma">
+	<div class="head">
+		<h2>Harold Finch <br>
+			<span>YOUR TOTAL</span></h2>
+		<h1>$88</h1>
+	</div>
+	<form action="#" method="post">
+		<label for="card">Credit card number</label>
+			<input type="number" name="card" id="card"/>
+		<label>Expiration date</label>
+			<select class="month" name="Month">
+				<option selected value="Month">Month</option>
+				<option value="">January</option>
+				<option value="">February</option>
+				<option value="">March</option>
+				<option value="">April</option>
+			</select>
+			<select class="year" name="Year">
+				<option selected value="Year">Year</option>
+				<option value="">2017</option>
+				<option value="">2016</option>
+				<option value="">2015</option>
+				<option value="">2014</option>
+			</select>
+		<label for="cvv">CVV </label>
+		<input class="cvv" type="number" name="number" id="cvv">
+		<span>  3 or 4 digits - <span>view example</span></span>
+		<hr>
+		<button type="submit">Pay</button>
+		<h5>Cancel order</h5>
+	</form>
+</div>
+</body>
+</html>

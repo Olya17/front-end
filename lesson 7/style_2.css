@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i');
+body {
+	padding-right: 10%;
+	padding-left: 10%;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 2%;
+}
+.PlayfairDisplay {
+	font-family: 'Playfair Display', serif;
+	font-size: 3rem;
+}
+span::before {
+	font-family: 'Playfair Display', serif;
+	color: #000000;
+	content: "T";
+	font-size: 400%;
+	vertical-align: top;
+	float: left;
+	line-height: 80%;
+	padding-right: 20px;
+}
+.Lato-Light {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #acacac;
+	font-size: 0.8em;
+	text-align: justify;
+}
+blockquote {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: #929292;
+	text-align: justify;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+}
+.Lato-Bold {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+blockquote::before {
+	content: "\201C";
+	float: left;
+	font-size: 3em;
+	line-height: 0.1em;
+	margin-right: 0.2em;
+}
+input {
+	color: #d86b49;
+	background-color: #ffffff;
+	margin-left: 8%;
+	padding: 2%;
+	font-size: 1em;
+	width: 20%;
+}
