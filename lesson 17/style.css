@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color:  #ffffff;
+	text-align: center;
+}
+.text {
+	text-transform: none;
+}
+header {
+		background: url(assets/hero-bg.jpg) no-repeat;
+		width: 100%;
+		background-position: center;
+		height: 753px;
+		background-size: cover;
+		position: relative;
+	}
+.logo {
+	position: absolute;
+	left: 47%;
+	top: 27%;
+}
+h1 {
+	position: absolute;
+	left: 32%;
+	top: 39%;
+	width: 35%;
+	font-size: 53px;
+	font-weight: 700;
+}
+h5 {
+	position: absolute;
+	left: 30%;
+	top: 60%;
+	width: 39%;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 29px;
+}
+.scrol {
+	position: absolute;
+	width: 23px;
+	height: 37px;
+	bottom: 7%;
+	left: 50%;
+}
+.scrol:hover {
+	transform: scale(1.5);
+}
+.scrol:active {
+	transform: rotate(-180deg);
+}
+.content {
+	width: 902px;
+	border: 1px solid black;
+	border-top: none;
+	padding: 3px 150px 2px 150px;
+	box-sizing: border-box;
+	position: relative;
+	margin: 6% 17%;
+	color: #000;
+}
+[class^='border-row'] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 0;
+}
+[class^='border-row'] span {
+	display: inline-block;
+	width: 33.33%;
+}
+.border-row .border {
+	height: 0;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+}
+.border-row-2 .border-2 {
+	height: 0;
+	border-bottom: 1px solid white;
+	box-sizing: border-box;
+}
+.content-head-text {
+	position: absolute;
+	left: 380px;
+	top: -20px;
+	font-size: 33px;
+	font-weight: 700;
+}
+.main-text {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 10% 0;
+	text-transform: none;
+}
+.section {
+	background: url(assets/services.jpg) no-repeat;
+	width: 100%;
+	background-position: center;
+	height: 367px;
+	background-size: cover;
+}
+.service{
+	width: 902px;
+	border: 1px solid white;
+	border-top: none;
+	padding: 1px 150px 0 150px;
+	box-sizing: border-box;
+	position: relative;
+	margin: 0 17%;
+	top: 10%;
+}
+.current {
+	background: #fff;
+	width: 100%;
+	background-position: center;
+}
+.current-text {
+	width: 902px;
+	border: 1px solid black;
+	border-top: none;
+	padding: 26px 150px 20px 150px;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	margin: 6% 17%;
+	color: #000;
+}
+h3 {
+	color:  #3c3c3c;
+	font-size: 19px;
+	font-weight: 700;
+}
+.text-icon {
+	color:  #3c3c3c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	text-transform: none;
+}
+.content-text {
+	position: absolute;
+	left: 344px;
+	top: -20px;
+	font-size: 33px;
+	font-weight: 700;
+}
+h2 {
+	color:  #3c3c3c;
+	font-size: 19px;
+	font-weight: 700;
+	padding: 10px 0;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.grid {
+	height: 490px;
+	width: 100%;
+}
+.row1 {
+	width: 100%;
+	display: inline-block;
+}
+
+.row1 img:nth-child(2) {
+	width: 49%;
+	padding-right: 0.8%;
+	padding-bottom: 0.5%;
+	float: left;
+}
+.row1 img:first-child{
+	width: 24%;
+	padding-right: 0.8%;
+	padding-bottom: 0.5%;
+	float: left;
+}
+.row1 img:last-child {
+	width: 25.3%;
+	padding-bottom: 0.5%;
+	float: left;
+}
+.row2 img:nth-child(2) {
+	width: 49%;
+	padding-right: 0.8%;
+	float: left;
+}
+.row2 img:first-child{
+	width: 24%;
+	padding-right: 0.8%;
+	padding-bottom: 0.5%;
+	float: left;
+}
+.row2 img:last-child {
+	width: 25.3%;
+	padding-bottom: 0.5%;
+	float: left;
+}
