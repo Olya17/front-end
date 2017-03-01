@@ -1,0 +1,203 @@
+@import "style/_fonts";
+@import "style/_setting";
+
+
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  padding: 3% 0 3% 0;
+  .head {
+    margin: auto;
+    text-align: center;
+  }
+  h4 {
+    font-family: $open;
+    @include up;
+    color: $light;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  h1 {
+    font-family: $roboto;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 66px;
+    @include up;
+    color: $color;
+  }
+  p {
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 1.2;
+    &::before {
+    content: '';
+    @include i;
+    border-top: $br;}
+    &::after {
+      @include i;
+      border-top: $br;
+      content: '';
+    }}
+  i {
+    color: $color;
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
+
+.main {
+  margin: 0 auto;
+  padding-top: 7%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  &-icon {
+    position: relative;
+    .fa {
+      color: $color;
+      font-size: 40px;
+      position: absolute;
+      top: 36%;
+    }
+  }
+    .image {
+    width: 35%;
+    height: 399px;
+    position: relative;
+  }
+    .right::before {
+      @include lefrig;
+      right: -14px;
+      border-width: 2px 2px 0 0;
+      top: -14px;}
+      .right::after {
+        @include lefrig;
+        right: -14px;
+        border-width: 0 2px 2px 0;
+        bottom: -14px;
+      }
+        .left::before {
+          @include lefrig;
+          border-width: 2px 0 0 2px;
+          top: -14px;
+          left: -14px;
+        }
+          .left::after {
+            @include lefrig;
+            border-width: 0 0 2px 2px;
+            left: -14px;
+            bottom: -14px;
+          }
+}
+  .man {
+    cursor: crosshair;
+    img {
+      width: 99%;
+      border: $br;
+    }
+  }
+  .line {
+    border-right: $br;
+    height: 560px;
+    width: 2px;
+    margin-top: -80px;
+  }
+.content {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-family: $roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 24px;
+    color: $grey;
+    margin: 0;
+  &::after {
+    content: '';
+    display: block;
+    border-top: $br;
+    height: 2px;
+    width: 95px;
+    margin: 30px 0 30px 67px;
+  }}
+  h3 {
+    font-family: $source;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: $grey;
+    margin: 0;
+  }
+  .awesome {
+    font-size: 14px;
+    line-height: 14px;
+    color: $light;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+    & .fa {
+      border-radius: 50%;
+      border-width: 2px;
+      border-color: #cccccc;
+      border-style: solid;
+      width: 26px;
+      height: 26px;
+      text-align: center;
+      padding-top: 4px;
+      box-sizing: border-box;
+      margin-right: 5px;
+      &:hover {
+      opacity: .5;
+    }
+    }}
+    p {
+      font-family: $source;
+      color: #333;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      margin: 0;
+    }
+  .line-dash {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  span {
+    @include dash;
+    width: 10px;
+  }
+  .dash {
+    @include  dash;
+    width: 20px;
+    text-align: center;
+  }}
+  input {
+    font-family: $open;
+    color: $grey;
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    border: $br;
+    background: #fff;
+    @include up;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+.point {
+  display: flex;
+  height: 140px;
+  img {
+    margin: auto;
+  }
+}
