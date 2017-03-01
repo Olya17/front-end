@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@mixin lefrig {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 32%;
+  height: 32%;
+  border: solid $color;
+}
+@mixin i {
+  height: 2px;
+  width: 210px;
+  display: inline-block;
+}
+@mixin dash {
+  border-top: $br;
+  height: 2px;
+  display: inline-block;
+  margin-right: 5px;
+}
+@mixin up {
+  text-transform: uppercase;
+}
+
+$br: 2px solid #ffcc00;
+$color: #ffcc00;
+$grey: #666666;
+$light: #cccccc;
+$open:'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$source : 'Source Sans Pro', sans-serif;
