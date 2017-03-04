@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+/**/
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.price .child-end .btn-end, .price .child-center .btn-center {
+  height: 54px;
+  width: 54%;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  left: 23%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000; }
+
+.price {
+  width: 100%;
+  max-width: 1415px;
+  height: 100%;
+  background: #9789f9 no-repeat;
+  background-size: cover;
+  padding: 10% 0; }
+  .price .child {
+    height: 610px;
+    background: #f5f4f9 no-repeat;
+    text-align: left;
+    padding: 0 3%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative; }
+    .price .child-end {
+      width: 24%; }
+      .price .child-end::after {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        z-index: 2;
+        background: url(img/bd1.png) no-repeat;
+        height: 396px;
+        bottom: 50px; }
+      .price .child-end .btn-end {
+        background-color: #6fcffb;
+        bottom: -26px;
+        z-index: 3; }
+    .price .child .circle {
+      position: absolute;
+      right: 10%;
+      top: 6%;
+      height: 48px;
+      width: 48px;
+      border-radius: 25px;
+      background-color: #fd8d7b; }
+      .price .child .circle::before {
+        content: '';
+        position: absolute;
+        right: -21%;
+        top: -30%;
+        height: 15px;
+        width: 15px;
+        border-radius: 10px;
+        background-color: #fd8d7b;
+        z-index: 7; }
+      .price .child .circle::after {
+        content: '';
+        position: absolute;
+        right: -39%;
+        top: -52%;
+        height: 6px;
+        width: 6px;
+        border-radius: 3px;
+        background-color: #fd8d7b;
+        z-index: 7; }
+    .price .child-center {
+      width: 27%;
+      height: 695px;
+      margin: 0 3%; }
+      .price .child-center::after {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        z-index: 2;
+        background: url(img/bg2.png) no-repeat;
+        height: 424px;
+        bottom: 90px; }
+      .price .child-center .btn-center {
+        background-color: #fd8d7b;
+        bottom: 65px;
+        z-index: 3; }
+      .price .child-center h6 {
+        font-family: 'Roboto', sans-serif;
+        color: #a9a9a9;
+        font-size: 11px;
+        font-weight: 300;
+        text-align: left;
+        position: absolute;
+        bottom: 10px;
+        left: 31%; }
+    .price .child .content {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+      margin-top: 14%; }
+      .price .child .content h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 60px;
+        font-weight: 300;
+        margin: 0;
+        text-align: center; }
+        .price .child .content h1::before {
+          content: '$';
+          font-family: 'Open Sans', sans-serif;
+          font-size: 29px;
+          font-weight: 400;
+          vertical-align: top; }
+        .price .child .content h1::after {
+          content: '/HR';
+          font-family: 'Open Sans', sans-serif;
+          font-size: 20px;
+          font-weight: 300; }
+      .price .child .content h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        line-height: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+        letter-spacing: -1px; }
+  .price i {
+    position: absolute;
+    left: 44%;
+    top: 30%;
+    z-index: 6;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px; }
+  .price ul {
+    position: absolute;
+    z-index: 4;
+    left: 12%;
+    top: 40%;
+    word-wrap: break-word; }
+    .price ul li {
+      list-style-type: none;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 53px; }
+
+/*# sourceMappingURL=style.css.map */
