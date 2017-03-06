@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+
+$relew: 'Raleway', sans-serif;
+$lato: 'Lato', sans-serif;
+
+@mixin text {
+  text-transform: uppercase;
+}
+%flex {
+  display: flex;
+}
+$width: 27%;
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.teaser {
+  background: #02496a url("img/hero.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  @extend %flex;
+  &__page {
+    width: 100%;
+
+  }
+  .ba-head {
+    vertical-align: middle;
+    padding: 2% 10% 9%;
+  }
+  .ba-logo {
+    padding-right: 27%;
+  }
+  ul {
+    display: inline-block;
+    @include text;
+    li {
+      list-style-type: none;
+      display: inline-block;
+      vertical-align: top;
+      padding-right: 46px;
+      font-size: 13.92px;
+      font-weight: 500;
+      line-height: 40px;
+    }
+  }
+  .teaser-center {
+    margin: auto;
+    width: 620px;
+    height: 205px;
+    text-align: center;
+    &__line {
+      border-top: 2px solid #fff;
+      width: 85px;
+      height: 2px;
+      position: absolute;
+      left: 48%;
+      margin: 15px 0;
+    }
+  }
+  h1 {
+    font-family: $relew;
+    @include text;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+  }
+  h4 {
+    font-family: $lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .scrol {
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    bottom: 45px;
+  }
+}
+
+  .services {
+    height: 738px;
+    padding: 0 10%;
+    .ba-text {
+      @include text;
+      margin: auto;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+      position: relative;
+      padding: 10%;
+
+      &::after {
+        content: '';
+        border-top: 2px solid #000;
+        width: 90px;
+        height: 2px;
+        position: absolute;
+        top: 77%;
+        left: 47%;
+      }
+    }
+    .contener {
+      @extend %flex;
+      justify-content: space-around;
+      [class^='services'] {
+        width: $width;
+      }
+      .srv {
+        font-family: $lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+      }
+      .tex {
+        font-family: $lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+      }
+      .ba-img1 {
+        margin: 0 36%;
+      }
+      .ba-img2 {
+        margin: 0 18%;
+      }
+      .ba-img3 {
+        margin: 0 29%;
+      }
+    }
+  }
+
+  .dolore {
+    background: #000 url(img/fon.jpg) 50% no-repeat;
+    background-size: cover;
+    height: 500px;
+    .dolore-contener {
+    padding: 0 10%;
+    }
+    .content__text {
+      float: left;
+      color: #fff;
+      width: 670px;
+      height: 218px;
+      padding: 12% 0;
+      .title {
+        font-family: $lato;
+        font-size: 44.67px;
+        font-weight: 400;
+        line-height: 60px;
+        @include text;
+      }
+      .text-title {
+        font-family: $lato;
+        font-size: 22px;
+        font-weight: 100;
+        line-height: 28px;
+      }
+      .more {
+        font-family: $lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+    .pfon {
+      float: right;
+      padding-top: 6.8%;
+    }
+  }
+
+  .image {
+    height: 950px;
+    background: #fff no-repeat;
+    background-size: cover;
+    color: #000;
+    .img-text {
+      @include text;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 60px;
+      margin: 0 auto;
+      position: relative;
+      display: block;
+      padding: 9% 42%;
+      text-align: center;
+
+      &::after {
+        content: '';
+        border-top: 2px solid #000;
+        width: 86px;
+        height: 2px;
+        position: absolute;
+        top: 77%;
+        left: 47%;
+      }}
+    }
+    .image__child {
+      padding: 0 5%;
+    .child {
+      width: 30%;
+      padding-right: 2%;
+      display: inline-block;
+      &:last-child {
+        padding-right: 0;
+      }
+    }}
+    .ba-btm {
+        display: flex;
+        margin: 5% 0;
+    .btm {
+      @include text;
+      margin: auto;
+      width: 365px;
+      height: 60px;
+      text-decoration: none;
+      background: #fff no-repeat;
+      border: 2px solid #000;
+    }}
